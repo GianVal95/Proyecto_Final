@@ -129,12 +129,6 @@ a{
 
 
 
-
-
-
-
-
-
 .grilla_peliculas{
     display: flex;
     align-content: space-around;
@@ -405,8 +399,13 @@ textarea:focus{
 
 
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:600px){
     
+    ul{
+        flex-direction: column;
+        height: 200px;
+        
+    }
 
     .grilla_home{
         display: flex;
@@ -510,11 +509,46 @@ textarea:focus{
         gap: 1rem 1rem;
         align-content: space-around;
     }
+
+    footer{
+        font-size: 15px;
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .bi-twitter{
+        font-size: 20px;
+        
+    }
+    
+    .bi-instagram{
+        font-size: 20px;
+    }
+    
+    .bi-facebook{
+        font-size: 20px;
+    }
+    
+    .bi-playstation{
+        font-size: 20px;
+        
+    }
+    
+    .bi-xbox{
+        font-size: 20px;
+    }
+    
+    .bi-nintendo-switch{
+        font-size: 20px;
+    }
+    
+    
     
 }
 
 
-@media only screen and (min-width:900px){
+@media only screen and (min-width:600px){
 
     .grilla_home{
         display: flex;
@@ -564,29 +598,28 @@ textarea:focus{
         align-content: space-around;
     
     }
-    
-    
+
     .contacto{
-    display: flex;
-    flex-flow: wrap;
-    gap: 1rem 1rem;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.formulario{
-    display: flex;
-    flex-flow: column;
-    gap: 1rem 1rem;
-    align-content: space-around;
-}
-
+        gap: 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
     
     
+    .formulario{
+        display: flex;
+        gap: 1rem 1rem;
+        align-content: space-around;
+    }
     
-
-
+    footer{
+        font-size: 20px;
+        height: 150px;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
 }
 
 
@@ -594,11 +627,7 @@ footer{
     display: flex;
     background-color: black;
     color: antiquewhite;
-    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100px;
-    justify-content: space-evenly;
-    align-items: center;
     
 }
 
