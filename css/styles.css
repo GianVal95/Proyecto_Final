@@ -40,6 +40,7 @@
 }
 
 
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
@@ -48,6 +49,7 @@ body{
 img{
     width: 100%;
     height: 100%;
+    
 }
 
 header{
@@ -78,6 +80,8 @@ ul{
     height: 100px;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 a{
@@ -116,6 +120,7 @@ a{
 
 .card{
     background-color: rgb(161, 161, 199);
+    overflow: hidden;
     
 }
 
@@ -180,6 +185,7 @@ a{
 
 .img_peli9{
     grid-area: foto9;
+    object-fit: contain;
 }
 
 .main_peliculas{
@@ -273,7 +279,12 @@ a{
                          "foto7 foto8 foto9";
     justify-content: space-evenly;
     align-content: space-around;
+    
 
+}
+
+.img_galeria{
+    object-fit: contain;
 }
 
 .img_galeria1{
@@ -489,6 +500,7 @@ textarea:focus{
                              "foto9 foto9";
         justify-content: space-evenly;
         align-content: space-around;
+        
     
     }
     
