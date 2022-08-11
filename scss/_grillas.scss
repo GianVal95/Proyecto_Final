@@ -1,0 +1,273 @@
+.grilla_home{
+    display: flex;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "area1"
+                         "area2"
+                         "area3";
+    align-content:center;
+    justify-content:center
+    
+
+    .row{
+        display: flex;
+        width: 500px;
+        row-gap: 0.5rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color:  rgb(138, 117, 117);
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+}
+
+.grilla_juegos{
+        display: flex;
+        align-content: space-around;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 20% 20% 20% 20%;
+        grid-template-areas: "foto1 foto2 foto3"
+                             "foto4 foto5 foto6"
+                             "foto7 foto8 foto9"
+                             "foto10 foto11 foto12";
+       justify-content: space-evenly;
+       align-content: space-around;
+
+       .img_juegos1{
+        grid-area: foto1;
+    
+    }
+    
+    .img_juegos2{
+        grid-area: foto2;
+    
+    }
+    
+    .img_juegos3{
+        grid-area: foto3;
+    
+    }
+    
+    .img_juegos4{
+        grid-area: foto4;
+    
+    }
+    
+    .img_juegos5{
+        grid-area: foto5;
+    
+    }
+    
+    .img_juegos6{
+        grid-area: foto6;
+    
+    }
+    .img_juegos7{
+        grid-area: foto7;
+    
+    }
+    .img_juegos8{
+        grid-area: foto8;
+    
+    }
+    
+    .img_juegos9{
+        grid-area: foto9;
+    
+    }
+    
+    .img_juegos10{
+        grid-area: foto10;
+    
+    }
+    
+    .img_juegos11{
+        grid-area: foto11;
+    
+    }
+    
+    .img_juegos12{
+        grid-area: foto12;
+    
+    }
+}
+
+.grilla_peliculas{
+    h1{
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+     }
+     p{
+         text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: black;
+         justify-content: center;
+
+     }
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30% ;
+    grid-template-areas: "foto1 foto2 foto3"
+                         "foto4 foto5 foto6"
+                         "foto7 foto8 foto9";
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 1.5rem 1.5rem;
+
+    .img_peli1{
+    
+        grid-area: foto1;
+    }
+    
+    .img_peli2{
+        grid-area: foto2;
+    }
+    
+    .img_peli3{
+        grid-area: foto3;
+    }
+    
+    .img_peli4{
+        grid-area: foto4;
+    }
+    
+    .img_peli5{
+        grid-area: foto5;
+    }
+    
+    .img_peli6{
+        grid-area: foto6;
+    }
+    
+    .img_peli7{
+        grid-area: foto7;
+    }
+    
+    .img_peli8{
+        grid-area: foto8;
+    }
+    
+    .img_peli9{
+        grid-area: foto9;
+        object-fit: contain;
+    }
+}
+
+.grilla_galeria{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 25% 25% 25% ;
+    grid-template-areas: "foto1 foto2 foto3"
+                         "foto4 foto5 foto6"
+                         "foto7 foto8 foto9";
+    justify-content: space-evenly;
+    align-content: space-around;
+
+    .img_galeria{
+        object-fit: contain;
+    }
+    
+    .img_galeria1{
+        grid-area: foto1;
+        transition: all 2s;
+    }
+    
+    .img_galeria1:hover{
+        transform: scale(1.1 , 1.1);
+    }
+    
+    .img_galeria2{
+        grid-area: foto2;
+        transition: all 2s;
+    }
+    .img_galeria2:hover{
+        transform: scale(1.1 , 1.1);
+    }
+    
+    .img_galeria3{
+        grid-area: foto3;
+        transition: all 2s;
+    }
+    .img_galeria3:hover{
+        transform: scale(1.1 , 1.1);
+    }
+    
+    
+    .img_galeria4{
+        grid-area: foto4;
+        transition: all 2s;
+    }
+    .img_galeria4:hover{
+        transform: rotate(45deg);
+    }
+    
+    .img_galeria5{
+        grid-area: foto5;
+        transition: all 2s;
+    }
+    .img_galeria5:hover{
+        transform: rotate(45deg);
+    }
+    
+    
+    .img_galeria6{
+        grid-area: foto6;
+        transition: all 2s;
+    }
+    .img_galeria6:hover{
+        transform: rotate(45deg);
+    }
+    
+    
+    .img_galeria7{
+        grid-area: foto7;
+        transition: all 2s;
+    }
+    .img_galeria7:hover{
+        transform: rotatey(140deg);
+    }
+    
+    
+    .img_galeria8{
+        grid-area: foto8;
+        transition: all 2s;
+    }
+    .img_galeria8:hover{
+        transform: rotatey(140deg);
+    }
+    
+    .img_galeria9{
+        grid-area: foto9;
+        transition: all 2s;
+        
+    }
+    .img_galeria9:hover{
+        transform: rotatey(140deg);
+    }
+
+    .video{
+        object-fit: contain;
+        
+    }
+    
+}
