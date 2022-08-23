@@ -80,8 +80,8 @@
   justify-content: center;
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 25% 25% 25%;
-  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
   justify-content: space-evenly;
   align-content: space-around; }
   .grilla_galeria .img_galeria {
@@ -135,6 +135,12 @@
     object-fit: contain;
     width: 100%;
     height: 100%; }
+  .grilla_galeria .video_galeria1 {
+    grid-area: foto10; }
+  .grilla_galeria .video_galeria2 {
+    grid-area: foto11; }
+  .grilla_galeria .video_galeria3 {
+    grid-area: foto12; }
 
 @media only screen and (max-width: 600px) {
   ul {
