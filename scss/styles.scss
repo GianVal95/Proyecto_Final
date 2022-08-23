@@ -1,5 +1,4 @@
 @import "grillas";
-@import "variables";
 @import "media";
 
 
@@ -35,39 +34,38 @@ header{
 
     }
 
-    @mixin estilo_contenido ( $color_letra , $tamaño_letra , $color_fondo) {
-
-        font-size: $tamaño_letra;
+    @mixin estilo_contenido ( $color_letra , $color_fondo) {
         color: $color_letra;
         background-color: $color_fondo;
+        font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
        
     
     }
 
-    .re__biohazard h4{
-        @include estilo_contenido(red, 20px, black)
+    .re__biohazard{
+        @include estilo_contenido(red , black)
     
     }
     
-    .re__quarantaine h4{
-        @include estilo_contenido(black ,20px ,yellow)
+    .re__quarantaine{
+        @include estilo_contenido(black , yellow)
     
     }
     
-    .re__tvirus h4{
-        @include estilo_contenido(red 20px rgb(13, 44, 13))
+    .re__tvirus{
+        @include estilo_contenido(black , red)
     
     }
     
-    .re__stars h4{
-        @include estilo_contenido(white ,20px, rgb(126, 25, 25))
+    .re__stars{
+        @include estilo_contenido(white , brown)
     
     
     }
     
-    .re__umbrella h4{
-        @include estilo_contenido(black ,20px, red)
+    .re__umbrella{
+        @include estilo_contenido(white , black)
     
     
     }

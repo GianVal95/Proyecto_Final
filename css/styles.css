@@ -284,11 +284,39 @@ header {
   background-color: #8a7575; }
   header .logo {
     width: 90px;
-    height: 75px; }
+    height: 90px; }
   header h1 {
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black; }
+  header h4 {
+    justify-content: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header .re__biohazard {
+    color: red;
+    background-color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header .re__quarantaine {
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header .re__tvirus {
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header .re__stars {
+    color: white;
+    background-color: brown;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  header .re__umbrella {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 img {
   width: 100%;
@@ -401,48 +429,3 @@ footer {
     background-color: #20ac55; }
   footer .bi-nintendo-switch {
     background-color: #e03434; }
-
-.re__biohazard {
-  font-size: 20px;
-  color: red;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.re__quarantaine {
-  font-size: 20px;
-  color: red;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.re__tvirus {
-  font-size: 20px;
-  color: red;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.re__stars {
-  font-size: 20px;
-  color: red;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.re__umbrella {
-  font-size: 20px;
-  color: red;
-  background-color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
