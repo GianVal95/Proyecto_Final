@@ -109,10 +109,11 @@ main{
     width: 100%;
     overflow: hidden;
     border-radius: 6px;
-    margin: 15px;
+    margin: 20px;
     background-color: rgb(231, 236, 236);
     cursor: default;
     transition: all 4ms ease;
+    
 
 }
 
@@ -127,7 +128,7 @@ main{
 }
 
 .card .contenido{
-    padding: 15px;
+    padding: 12px;
     text-align: center;
 
 }
@@ -135,6 +136,7 @@ main{
 .card .contenido p{
     line-height: 1.5;
     color: gray;
+    text-align: center;
 }
 
 .card .contenido h3{
@@ -151,6 +153,7 @@ main{
     border: 1px solid rgb(185, 65, 89);
     border-radius: 6px;
     transition: all 4ms ease;
+    
 }
 
 .card .contenido a:hover{

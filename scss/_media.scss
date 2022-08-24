@@ -1,8 +1,15 @@
 @media only screen and (max-width:600px){
     
-    ul{
-        flex-direction: column;
-        height: 200px;
+    nav{
+        ul{
+            flex-direction: column;
+            height: 200px;
+        }
+    }
+
+    .container{
+        max-width: 1000px;
+        flex-direction: row;
     }
 
     .grilla_home{
@@ -17,14 +24,6 @@
         justify-content:center; 
     }
     
-    .card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        background-color:  rgb(138, 117, 117);
-    }
     
     .img_home{
         width: 90%;
@@ -151,6 +150,9 @@
 }
 
 @media only screen and (min-width:600px){
+    ul{
+        height: 100px;
+    }
 
     .grilla_home{
         display: flex;
