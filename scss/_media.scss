@@ -8,9 +8,13 @@
     }
 
     .container{
+        width: 100%;
+        display: flex;
         max-width: 1000px;
-        flex-direction: row;
+        flex-wrap: wrap;
     }
+
+
 
     .grilla_home{
         display: flex;

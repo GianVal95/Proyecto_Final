@@ -1,279 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-.grilla_juegos {
-  display: flex;
-  align-content: space-around;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 20% 20% 20% 20%;
-  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
-  justify-content: space-evenly;
-  align-content: space-around; }
-  .grilla_juegos .img_juegos1 {
-    grid-area: foto1; }
-  .grilla_juegos .img_juegos2 {
-    grid-area: foto2; }
-  .grilla_juegos .img_juegos3 {
-    grid-area: foto3; }
-  .grilla_juegos .img_juegos4 {
-    grid-area: foto4; }
-  .grilla_juegos .img_juegos5 {
-    grid-area: foto5; }
-  .grilla_juegos .img_juegos6 {
-    grid-area: foto6; }
-  .grilla_juegos .img_juegos7 {
-    grid-area: foto7; }
-  .grilla_juegos .img_juegos8 {
-    grid-area: foto8; }
-  .grilla_juegos .img_juegos9 {
-    grid-area: foto9; }
-  .grilla_juegos .img_juegos10 {
-    grid-area: foto10; }
-  .grilla_juegos .img_juegos11 {
-    grid-area: foto11; }
-  .grilla_juegos .img_juegos12 {
-    grid-area: foto12; }
-
-.grilla_peliculas {
-  display: flex;
-  align-content: space-around;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 30% 30% 30%;
-  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
-  justify-content: space-evenly;
-  align-content: space-around;
-  gap: 1.5rem 1.5rem; }
-  .grilla_peliculas h1 {
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black; }
-  .grilla_peliculas p {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    justify-content: center; }
-  .grilla_peliculas .img_peli1 {
-    grid-area: foto1; }
-  .grilla_peliculas .img_peli2 {
-    grid-area: foto2; }
-  .grilla_peliculas .img_peli3 {
-    grid-area: foto3; }
-  .grilla_peliculas .img_peli4 {
-    grid-area: foto4; }
-  .grilla_peliculas .img_peli5 {
-    grid-area: foto5; }
-  .grilla_peliculas .img_peli6 {
-    grid-area: foto6; }
-  .grilla_peliculas .img_peli7 {
-    grid-area: foto7; }
-  .grilla_peliculas .img_peli8 {
-    grid-area: foto8; }
-  .grilla_peliculas .img_peli9 {
-    grid-area: foto9;
-    object-fit: contain; }
-
-.grilla_galeria {
-  display: flex;
-  align-content: space-around;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 20% 20% 20% 20%;
-  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
-  justify-content: space-evenly;
-  align-content: space-around; }
-  .grilla_galeria .img_galeria {
-    object-fit: contain; }
-  .grilla_galeria .img_galeria1 {
-    grid-area: foto1;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria1:hover {
-    transform: scale(1.1, 1.1); }
-  .grilla_galeria .img_galeria2 {
-    grid-area: foto2;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria2:hover {
-    transform: scale(1.1, 1.1); }
-  .grilla_galeria .img_galeria3 {
-    grid-area: foto3;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria3:hover {
-    transform: scale(1.1, 1.1); }
-  .grilla_galeria .img_galeria4 {
-    grid-area: foto4;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria4:hover {
-    transform: rotate(45deg); }
-  .grilla_galeria .img_galeria5 {
-    grid-area: foto5;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria5:hover {
-    transform: rotate(45deg); }
-  .grilla_galeria .img_galeria6 {
-    grid-area: foto6;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria6:hover {
-    transform: rotate(45deg); }
-  .grilla_galeria .img_galeria7 {
-    grid-area: foto7;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria7:hover {
-    transform: rotatey(140deg); }
-  .grilla_galeria .img_galeria8 {
-    grid-area: foto8;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria8:hover {
-    transform: rotatey(140deg); }
-  .grilla_galeria .img_galeria9 {
-    grid-area: foto9;
-    transition: all 2s; }
-  .grilla_galeria .img_galeria9:hover {
-    transform: rotatey(140deg); }
-  .grilla_galeria .video {
-    object-fit: contain;
-    width: 100%;
-    height: 100%; }
-  .grilla_galeria .video_galeria1 {
-    grid-area: foto10; }
-  .grilla_galeria .video_galeria2 {
-    grid-area: foto11; }
-  .grilla_galeria .video_galeria3 {
-    grid-area: foto12; }
-
-@media only screen and (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    height: 200px; }
-  .container {
-    max-width: 1000px;
-    flex-direction: row; }
-  .grilla_home {
-    display: flex;
-    display: grid;
-    grid-template-columns: 90%;
-    grid-template-rows: 30% 30% 30%;
-    grid-template-areas: "area1" "area2" "area3";
-    align-content: center;
-    justify-content: center; }
-  .img_home {
-    width: 90%;
-    height: 85%;
-    object-fit: cover; }
-  .grilla_peliculas {
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 15% 15% 15% 15% 15%;
-    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
-    justify-content: space-evenly;
-    align-content: space-around; }
-    .grilla_peliculas h1 {
-      justify-content: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: black; }
-    .grilla_peliculas p {
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: black;
-      justify-content: center; }
-  .grilla_juegos {
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 15% 15% 15% 15% 15% 15%;
-    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12";
-    justify-content: space-evenly;
-    align-content: space-around; }
-  .grilla_galeria {
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 15% 15% 15% 15% 15%;
-    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
-    justify-content: space-evenly;
-    align-content: space-around; }
-  .contacto {
-    display: flex;
-    flex-flow: wrap;
-    gap: 1rem 1rem;
-    justify-content: center;
-    align-items: center; }
-  .formulario {
-    display: flex;
-    flex-flow: column;
-    gap: 1rem 1rem;
-    align-content: space-around; }
-  footer {
-    font-size: 15px;
-    height: 100px;
-    justify-content: space-evenly;
-    align-items: center; }
-  .bi-twitter {
-    font-size: 20px; }
-  .bi-instagram {
-    font-size: 20px; }
-  .bi-facebook {
-    font-size: 20px; }
-  .bi-playstation {
-    font-size: 20px; }
-  .bi-xbox {
-    font-size: 20px; }
-  .bi-nintendo-switch {
-    font-size: 20px; } }
-
-@media only screen and (min-width: 600px) {
-  ul {
-    height: 100px; }
-  .grilla_home {
-    display: flex;
-    display: grid;
-    grid-template-columns: 90%;
-    grid-template-rows: 30% 30% 30%;
-    grid-template-areas: "area1" "area2" "area3";
-    align-content: center;
-    justify-content: center; }
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; }
-  .img_home {
-    width: 85%;
-    height: 80%;
-    object-fit: cover; }
-  .grilla_peliculas {
-    justify-content: space-evenly;
-    align-content: space-around;
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30% 30%;
-    grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9"; }
-  .contacto {
-    gap: 1rem 1rem;
-    justify-content: center;
-    align-items: center; }
-  .formulario {
-    display: flex;
-    gap: 1rem 1rem;
-    align-content: space-around; }
-  footer {
-    font-size: 20px;
-    height: 150px;
-    justify-content: space-evenly;
-    align-items: center; } }
-
 * {
   margin: 0%;
   padding: 0%;
@@ -434,3 +159,280 @@ footer {
     background-color: #20ac55; }
   footer .bi-nintendo-switch {
     background-color: #e03434; }
+
+.grilla_juegos {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
+  justify-content: space-evenly;
+  align-content: space-around; }
+  .grilla_juegos .img_juegos1 {
+    grid-area: foto1; }
+  .grilla_juegos .img_juegos2 {
+    grid-area: foto2; }
+  .grilla_juegos .img_juegos3 {
+    grid-area: foto3; }
+  .grilla_juegos .img_juegos4 {
+    grid-area: foto4; }
+  .grilla_juegos .img_juegos5 {
+    grid-area: foto5; }
+  .grilla_juegos .img_juegos6 {
+    grid-area: foto6; }
+  .grilla_juegos .img_juegos7 {
+    grid-area: foto7; }
+  .grilla_juegos .img_juegos8 {
+    grid-area: foto8; }
+  .grilla_juegos .img_juegos9 {
+    grid-area: foto9; }
+  .grilla_juegos .img_juegos10 {
+    grid-area: foto10; }
+  .grilla_juegos .img_juegos11 {
+    grid-area: foto11; }
+  .grilla_juegos .img_juegos12 {
+    grid-area: foto12; }
+
+.grilla_peliculas {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9";
+  justify-content: space-evenly;
+  align-content: space-around;
+  gap: 1.5rem 1.5rem; }
+  .grilla_peliculas h1 {
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black; }
+  .grilla_peliculas p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    justify-content: center; }
+  .grilla_peliculas .img_peli1 {
+    grid-area: foto1; }
+  .grilla_peliculas .img_peli2 {
+    grid-area: foto2; }
+  .grilla_peliculas .img_peli3 {
+    grid-area: foto3; }
+  .grilla_peliculas .img_peli4 {
+    grid-area: foto4; }
+  .grilla_peliculas .img_peli5 {
+    grid-area: foto5; }
+  .grilla_peliculas .img_peli6 {
+    grid-area: foto6; }
+  .grilla_peliculas .img_peli7 {
+    grid-area: foto7; }
+  .grilla_peliculas .img_peli8 {
+    grid-area: foto8; }
+  .grilla_peliculas .img_peli9 {
+    grid-area: foto9;
+    object-fit: contain; }
+
+.grilla_galeria {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
+  justify-content: space-evenly;
+  align-content: space-around; }
+  .grilla_galeria .img_galeria {
+    object-fit: contain; }
+  .grilla_galeria .img_galeria1 {
+    grid-area: foto1;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria1:hover {
+    transform: scale(1.1, 1.1); }
+  .grilla_galeria .img_galeria2 {
+    grid-area: foto2;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria2:hover {
+    transform: scale(1.1, 1.1); }
+  .grilla_galeria .img_galeria3 {
+    grid-area: foto3;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria3:hover {
+    transform: scale(1.1, 1.1); }
+  .grilla_galeria .img_galeria4 {
+    grid-area: foto4;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria4:hover {
+    transform: rotate(45deg); }
+  .grilla_galeria .img_galeria5 {
+    grid-area: foto5;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria5:hover {
+    transform: rotate(45deg); }
+  .grilla_galeria .img_galeria6 {
+    grid-area: foto6;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria6:hover {
+    transform: rotate(45deg); }
+  .grilla_galeria .img_galeria7 {
+    grid-area: foto7;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria7:hover {
+    transform: rotatey(140deg); }
+  .grilla_galeria .img_galeria8 {
+    grid-area: foto8;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria8:hover {
+    transform: rotatey(140deg); }
+  .grilla_galeria .img_galeria9 {
+    grid-area: foto9;
+    transition: all 2s; }
+  .grilla_galeria .img_galeria9:hover {
+    transform: rotatey(140deg); }
+  .grilla_galeria .video {
+    object-fit: contain;
+    width: 100%;
+    height: 100%; }
+  .grilla_galeria .video_galeria1 {
+    grid-area: foto10; }
+  .grilla_galeria .video_galeria2 {
+    grid-area: foto11; }
+  .grilla_galeria .video_galeria3 {
+    grid-area: foto12; }
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    height: 200px; }
+  .container {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap; }
+  .grilla_home {
+    display: flex;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "area1" "area2" "area3";
+    align-content: center;
+    justify-content: center; }
+  .img_home {
+    width: 90%;
+    height: 85%;
+    object-fit: cover; }
+  .grilla_peliculas {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
+    justify-content: space-evenly;
+    align-content: space-around; }
+    .grilla_peliculas h1 {
+      justify-content: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black; }
+    .grilla_peliculas p {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+      justify-content: center; }
+  .grilla_juegos {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%;
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12";
+    justify-content: space-evenly;
+    align-content: space-around; }
+  .grilla_galeria {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
+    justify-content: space-evenly;
+    align-content: space-around; }
+  .contacto {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1rem 1rem;
+    justify-content: center;
+    align-items: center; }
+  .formulario {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem 1rem;
+    align-content: space-around; }
+  footer {
+    font-size: 15px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center; }
+  .bi-twitter {
+    font-size: 20px; }
+  .bi-instagram {
+    font-size: 20px; }
+  .bi-facebook {
+    font-size: 20px; }
+  .bi-playstation {
+    font-size: 20px; }
+  .bi-xbox {
+    font-size: 20px; }
+  .bi-nintendo-switch {
+    font-size: 20px; } }
+
+@media only screen and (min-width: 600px) {
+  ul {
+    height: 100px; }
+  .grilla_home {
+    display: flex;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "area1" "area2" "area3";
+    align-content: center;
+    justify-content: center; }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; }
+  .img_home {
+    width: 85%;
+    height: 80%;
+    object-fit: cover; }
+  .grilla_peliculas {
+    justify-content: space-evenly;
+    align-content: space-around;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9"; }
+  .contacto {
+    gap: 1rem 1rem;
+    justify-content: center;
+    align-items: center; }
+  .formulario {
+    display: flex;
+    gap: 1rem 1rem;
+    align-content: space-around; }
+  footer {
+    font-size: 20px;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center; } }
