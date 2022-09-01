@@ -10,14 +10,15 @@ header {
   align-items: center;
   gap: 1rem;
   height: 150px;
-  background-color: #8a7575; }
+  background-image: url(../img/remansion.jpg);
+  background-position: center; }
   header .logo {
     width: 90px;
     height: 90px; }
   header h1 {
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black; }
+    font-family: 'Courier New', Courier, monospace;
+    color: white; }
   header h4 {
     justify-content: end;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
@@ -25,27 +26,45 @@ header {
     color: red;
     background-color: black;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
   header .re__quarantaine {
     color: black;
     background-color: yellow;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
   header .re__tvirus {
     color: black;
     background-color: red;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
   header .re__stars {
     color: white;
     background-color: brown;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
   header .re__umbrella {
     color: white;
     background-color: black;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace; }
 
 img {
   width: 100%;
@@ -66,7 +85,13 @@ nav {
     color: antiquewhite; }
 
 main {
-  background-color: #8a7575; }
+  background-image: url(../img/fondore.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: left top;
+  background-position: left center;
+  background-position: 20% 10%;
+  background-attachment: fixed; }
   main .container {
     width: 100%;
     display: flex;
@@ -111,32 +136,66 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: wrap;
-  background-color: #8a7575; }
-  .main_home .contacto {
-    display: flex;
-    flex-flow: wrap;
-    gap: 5rem 5rem;
-    justify-content: space-evenly;
-    align-items: center; }
-  .main_home input {
-    transition: all 3s; }
-  .main_home input:focus {
-    width: 500px;
-    background-color: #448888; }
-  .main_home .formulario {
-    display: flex;
-    flex-flow: column;
-    align-content: space-around; }
-  .main_home label {
+  flex-flow: wrap; }
+  .main_home .main_peliculas h1 {
     display: flex;
     justify-content: center;
-    align-items: center; }
-  .main_home textarea {
-    transition: all3s; }
-  .main_home textarea:focus {
-    width: 500px;
-    background-color: #448888; }
+    align-items: center;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
+  .main_home .main_peliculas p {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white; }
+  .main_home h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+    padding-bottom: 20px;
+    flex-direction: row; }
+  .main_home .img_contacto {
+    display: flex;
+    justify-content: left;
+    width: 280px;
+    height: 420px;
+    margin-right: 100px;
+    box-shadow: 7px 13px 37px #000; }
+  .main_home .form_registro {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 30px;
+    background-color: #2c2222;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 50px; }
+  .main_home .form_registro h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white; }
+  .main_home .controls {
+    width: 100%;
+    background-color: #aca5a5;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px; }
+  .main_home .botons {
+    width: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    margin: 2px 0;
+    font-size: 15px; }
 
 footer {
   display: flex;
@@ -304,11 +363,17 @@ footer {
     grid-area: foto12; }
 
 @media only screen and (max-width: 600px) {
+  header .logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px; }
+  header h1 {
+    font-size: 20px; }
   nav ul {
     flex-direction: column;
     height: 200px; }
   .container {
-    width: 100%;
+    width: 100px;
     display: flex;
     max-width: 1000px;
     flex-wrap: wrap; }
@@ -363,36 +428,41 @@ footer {
     grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
     justify-content: space-evenly;
     align-content: space-around; }
-  .contacto {
+  .img_contacto {
+    width: 180x;
+    height: 320px;
+    box-shadow: 7px 13px 37px #000;
     display: flex;
-    flex-flow: wrap;
-    gap: 1rem 1rem;
     justify-content: center;
-    align-items: center; }
-  .formulario {
-    display: flex;
-    flex-flow: column;
-    gap: 1rem 1rem;
-    align-content: space-around; }
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    flex-direction: column; }
+  .form_registro {
+    flex-direction: column; }
   footer {
     font-size: 15px;
-    height: 100px;
+    height: 170px;
     justify-content: space-evenly;
     align-items: center; }
   .bi-twitter {
-    font-size: 20px; }
+    font-size: 10px; }
   .bi-instagram {
-    font-size: 20px; }
+    font-size: 10px; }
   .bi-facebook {
-    font-size: 20px; }
+    font-size: 10px; }
   .bi-playstation {
-    font-size: 20px; }
+    font-size: 10px; }
   .bi-xbox {
-    font-size: 20px; }
+    font-size: 10px; }
   .bi-nintendo-switch {
-    font-size: 20px; } }
+    font-size: 10px; } }
 
 @media only screen and (min-width: 600px) {
+  header .logo {
+    margin-left: 15px; }
+  header h1 {
+    font-size: 30px; }
   ul {
     height: 100px; }
   .grilla_home {
@@ -423,10 +493,12 @@ footer {
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 30% 30% 30%;
     grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9"; }
-  .contacto {
-    gap: 1rem 1rem;
-    justify-content: center;
-    align-items: center; }
+  .img_contacto {
+    float: left;
+    overflow: hidden; }
+  .form_registro {
+    float: left;
+    overflow: hidden; }
   .formulario {
     display: flex;
     gap: 1rem 1rem;

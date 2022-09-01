@@ -1,4 +1,16 @@
 @media only screen and (max-width:600px){
+
+    header{
+        .logo{
+            width: 70px;
+            height: 70px;
+            margin-left: 15px;
+        }
+        h1{
+            font-size: 20px;
+
+        }
+    }
     
     nav{
         ul{
@@ -8,7 +20,7 @@
     }
 
     .container{
-        width: 100%;
+        width: 100px;
         display: flex;
         max-width: 1000px;
         flex-wrap: wrap;
@@ -99,54 +111,60 @@
         
     
     }
+    
+    
 
-    .contacto{
+    .img_contacto{
+        width: 180x;
+        height: 320px;
+        box-shadow: 7px 13px 37px #000;
         display: flex;
-        flex-flow: wrap;
-        gap: 1rem 1rem;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
+        margin-left: 100px;
+        flex-direction: column;
+
         
     }
-    
-    .formulario{
-        display: flex;
-        flex-flow: column;
-        gap: 1rem 1rem;
-        align-content: space-around;
+
+    .form_registro{
+        flex-direction: column;
     }
+
+   
 
     footer{
         font-size: 15px;
-        height: 100px;
+        height: 170px;
         justify-content: space-evenly;
         align-items: center;
     }
 
     .bi-twitter{
-        font-size: 20px;
+        font-size: 10px;
         
     }
     
     .bi-instagram{
-        font-size: 20px;
+        font-size: 10px;
     }
     
     .bi-facebook{
-        font-size: 20px;
+        font-size: 10px;
     }
     
     .bi-playstation{
-        font-size: 20px;
+        font-size: 10px;
         
     }
     
     .bi-xbox{
-        font-size: 20px;
+        font-size: 10px;
     }
     
     .bi-nintendo-switch{
-        font-size: 20px;
+        font-size: 10px;
     }
     
     
@@ -154,6 +172,15 @@
 }
 
 @media only screen and (min-width:600px){
+
+    header{
+        .logo{
+            margin-left: 15px;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
     ul{
         height: 100px;
     }
@@ -200,13 +227,17 @@
                              "foto7 foto8 foto9"
     }
 
-    .contacto{
-        gap: 1rem 1rem;
-        justify-content: center;
-        align-items: center;
-        
+    .img_contacto{
+        float: left;
+        overflow: hidden;
     }
-    
+
+    .form_registro{
+        float: left;
+        overflow: hidden;
+
+
+    }
     
     .formulario{
         display: flex;
