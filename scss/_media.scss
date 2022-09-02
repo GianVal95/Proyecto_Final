@@ -5,9 +5,21 @@
             width: 70px;
             height: 70px;
             margin-left: 15px;
+            margin-right: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
         }
         h1{
             font-size: 20px;
+
+        }
+        
+        .logo2{
+            width: 70px;
+            height: 70px;
+            margin-left: 15px;
+            margin-right: 25px;
+            padding-right: 5px;
 
         }
     }
@@ -135,38 +147,23 @@
    
 
     footer{
-        font-size: 15px;
-        height: 170px;
+        font-size: 10px;
+        height: 140px;
         justify-content: space-evenly;
         align-items: center;
+        .logo3{
+            width: 100px;
+            height: 20px;
+        }
+        .bi{
+            font-size: 20px;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+    
+    
     }
 
-    .bi-twitter{
-        font-size: 10px;
-        
-    }
-    
-    .bi-instagram{
-        font-size: 10px;
-    }
-    
-    .bi-facebook{
-        font-size: 10px;
-    }
-    
-    .bi-playstation{
-        font-size: 10px;
-        
-    }
-    
-    .bi-xbox{
-        font-size: 10px;
-    }
-    
-    .bi-nintendo-switch{
-        font-size: 10px;
-    }
-    
     
     
 }
@@ -179,6 +176,13 @@
         }
         h1{
             font-size: 30px;
+        }
+        .logo2{
+            
+            margin-left: 15px;
+            margin-right: 25px;
+            padding-right: 5px;
+
         }
     }
     ul{
@@ -251,5 +255,16 @@
         justify-content: space-evenly;
         align-items: center;
     
+    }
+
+    .bi{
+        font-size: 40px;
+        margin-right: 15px;
+        margin-left: 15px;
+       
+    }
+    .logo3{
+        width: 150px;
+        height: 30px;
     }
 }
