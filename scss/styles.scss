@@ -35,17 +35,16 @@ header{
     .logo2{
         width: 90px;
         height: 90px;
-        box-shadow: 7px 13px 37px #000;
+        object-fit: contain;
+        
     }
 
     @mixin estilo_contenido ( $color_letra , $color_fondo) {
         color: $color_letra;
         background-color: $color_fondo;
-        font-size: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-right: 15px;
-        margin-left: 15px;
-       
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        
     
     }
 
@@ -270,11 +269,6 @@ main{
         
            .botons{
             width: 100%;
-            padding: 10px;
-            background-color: antiquewhite;
-            border: none;
-            margin: 2px 0;
-            font-size: 15px;
            }
 
 
