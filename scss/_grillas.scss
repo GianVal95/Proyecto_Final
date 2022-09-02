@@ -151,7 +151,7 @@
                          "foto4 foto5 foto6"
                          "foto7 foto8 foto9"
                          "foto10 foto11 foto12"
-                         "foto13 foto14 foto15";
+                         "foto13";
     justify-content: space-evenly;
     align-content: space-around;
 
@@ -259,13 +259,6 @@
 
     .video_galeria4{
         grid-area: foto13;
-    }
-
-    .video_galeria5{
-        grid-area: foto14;
-    }
-    .video_galeria6{
-        grid-area: foto15;
     }
 
    
