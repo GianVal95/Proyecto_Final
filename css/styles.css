@@ -372,20 +372,17 @@ footer {
 
 @media only screen and (max-width: 600px) {
   header .logo {
-    width: 70px;
-    height: 70px;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-left: 5px;
-    padding-right: 5px; }
+    width: 90px;
+    height: 60px;
+    margin-left: 30px;
+    padding-left: 30px; }
   header h1 {
-    font-size: 20px; }
+    font-size: 15px; }
   header .logo2 {
     width: 70px;
-    height: 70px;
-    margin-left: 15px;
-    margin-right: 25px;
-    padding-right: 5px; }
+    height: 60px;
+    margin-right: 40px;
+    padding-right: 10px; }
   nav ul {
     flex-direction: column;
     height: 200px; }
