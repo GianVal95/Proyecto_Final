@@ -25,7 +25,8 @@ header {
   header .logo2 {
     width: 90px;
     height: 90px;
-    object-fit: contain; }
+    object-fit: contain;
+    border-radius: 10px; }
   header .re__biohazard {
     color: red;
     background-color: black;
@@ -93,7 +94,7 @@ main {
   main .card {
     width: 100%;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 10px;
     margin: 20px;
     background-color: #e7ecec;
     cursor: default;
@@ -109,10 +110,14 @@ main {
   main .card .contenido p {
     line-height: 1.5;
     color: gray;
-    text-align: center; }
+    text-align: center;
+    border-style: double;
+    font-size: 13px; }
   main .card .contenido h3 {
     font-weight: 400;
-    margin-bottom: 10px; }
+    margin-bottom: 18px;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace; }
   main .card .contenido a {
     text-decoration: none;
     display: inline-block;
@@ -149,9 +154,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
     color: white;
-    padding-bottom: 20px;
     flex-direction: row; }
   .main_home .img_contacto {
     display: flex;
@@ -160,7 +163,11 @@ main {
     height: 420px;
     margin-right: 100px;
     box-shadow: 7px 13px 37px #000;
-    margin-top: 50px; }
+    margin-top: 50px;
+    border-radius: 30px;
+    transition: all 3s; }
+  .main_home .img_contacto:hover {
+    transform: rotatey(140deg); }
   .main_home .form_registro {
     justify-content: center;
     align-items: center;
@@ -194,11 +201,19 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   footer .logo3 {
     width: 150px;
-    height: 30px; }
+    height: 30px;
+    border-radius: 30px;
+    transition: all 3s; }
+  footer .logo3:hover {
+    transform: rotatey(140deg); }
   footer .bi, footer .bi-twitter, footer .bi-instagram, footer .bi-facebook, footer .bi-playstation, footer .bi-xbox, footer .bi-nintendo-switch {
     font-size: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: all 3s;
+    border-radius: 10px; }
+  footer .bi:hover, footer .bi-twitter:hover, footer .bi-instagram:hover, footer .bi-facebook:hover, footer .bi-playstation:hover, footer .bi-xbox:hover, footer .bi-nintendo-switch:hover {
+    transform: scale(1.1, 1.1); }
   footer .bi-twitter {
     background-color: #2378d8; }
   footer .bi-instagram {
@@ -223,29 +238,41 @@ footer {
   justify-content: space-evenly;
   align-content: space-around; }
   .grilla_juegos .img_juegos1 {
-    grid-area: foto1; }
+    grid-area: foto1;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos2 {
-    grid-area: foto2; }
+    grid-area: foto2;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos3 {
-    grid-area: foto3; }
+    grid-area: foto3;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos4 {
-    grid-area: foto4; }
+    grid-area: foto4;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos5 {
-    grid-area: foto5; }
+    grid-area: foto5;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos6 {
-    grid-area: foto6; }
+    grid-area: foto6;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos7 {
-    grid-area: foto7; }
+    grid-area: foto7;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos8 {
-    grid-area: foto8; }
+    grid-area: foto8;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos9 {
-    grid-area: foto9; }
+    grid-area: foto9;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos10 {
-    grid-area: foto10; }
+    grid-area: foto10;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos11 {
-    grid-area: foto11; }
+    grid-area: foto11;
+    border-radius: 20px; }
   .grilla_juegos .img_juegos12 {
-    grid-area: foto12; }
+    grid-area: foto12;
+    border-radius: 20px; }
 
 .grilla_peliculas {
   display: flex;
@@ -258,34 +285,34 @@ footer {
   justify-content: space-evenly;
   align-content: space-around;
   gap: 1.5rem 1.5rem; }
-  .grilla_peliculas h1 {
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black; }
-  .grilla_peliculas p {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    justify-content: center; }
   .grilla_peliculas .img_peli1 {
-    grid-area: foto1; }
+    grid-area: foto1;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli2 {
-    grid-area: foto2; }
+    grid-area: foto2;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli3 {
-    grid-area: foto3; }
+    grid-area: foto3;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli4 {
-    grid-area: foto4; }
+    grid-area: foto4;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli5 {
-    grid-area: foto5; }
+    grid-area: foto5;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli6 {
-    grid-area: foto6; }
+    grid-area: foto6;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli7 {
-    grid-area: foto7; }
+    grid-area: foto7;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli8 {
-    grid-area: foto8; }
+    grid-area: foto8;
+    border-radius: 50px; }
   .grilla_peliculas .img_peli9 {
     grid-area: foto9;
-    object-fit: contain; }
+    object-fit: contain;
+    border-radius: 50px; }
 
 .grilla_galeria {
   display: flex;
@@ -301,47 +328,56 @@ footer {
     object-fit: contain; }
   .grilla_galeria .img_galeria1 {
     grid-area: foto1;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria1:hover {
     transform: scale(1.1, 1.1); }
   .grilla_galeria .img_galeria2 {
     grid-area: foto2;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria2:hover {
     transform: scale(1.1, 1.1); }
   .grilla_galeria .img_galeria3 {
     grid-area: foto3;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria3:hover {
     transform: scale(1.1, 1.1); }
   .grilla_galeria .img_galeria4 {
     grid-area: foto4;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria4:hover {
     transform: rotate(45deg); }
   .grilla_galeria .img_galeria5 {
     grid-area: foto5;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria5:hover {
     transform: rotate(45deg); }
   .grilla_galeria .img_galeria6 {
     grid-area: foto6;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria6:hover {
     transform: rotate(45deg); }
   .grilla_galeria .img_galeria7 {
     grid-area: foto7;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria7:hover {
     transform: rotatey(140deg); }
   .grilla_galeria .img_galeria8 {
     grid-area: foto8;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria8:hover {
     transform: rotatey(140deg); }
   .grilla_galeria .img_galeria9 {
     grid-area: foto9;
-    transition: all 2s; }
+    transition: all 2s;
+    border-radius: 30px; }
   .grilla_galeria .img_galeria9:hover {
     transform: rotatey(140deg); }
   .grilla_galeria .video {
@@ -349,13 +385,14 @@ footer {
     width: 100%;
     height: 100%; }
   .grilla_galeria .video_galeria1 {
-    grid-area: foto10; }
+    grid-area: foto10;
+    border-radius: 30px; }
   .grilla_galeria .video_galeria2 {
-    grid-area: foto11; }
+    grid-area: foto11;
+    border-radius: 30px; }
   .grilla_galeria .video_galeria3 {
-    grid-area: foto12; }
-  .grilla_galeria .video_galeria4 {
-    grid-area: foto13; }
+    grid-area: foto12;
+    border-radius: 30px; }
 
 @media only screen and (max-width: 600px) {
   header .logo {
@@ -400,15 +437,8 @@ footer {
     grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
     justify-content: space-evenly;
     align-content: space-around; }
-    .grilla_peliculas h1 {
-      justify-content: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: black; }
-    .grilla_peliculas p {
-      text-align: center;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: black;
-      justify-content: center; }
+  .main_peliculas p {
+    font-size: 12px; }
   .grilla_juegos {
     display: flex;
     align-content: space-around;
@@ -426,7 +456,7 @@ footer {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 15% 15% 15% 15% 15%;
-    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto9";
+    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10";
     justify-content: space-evenly;
     align-content: space-around; }
   .img_contacto {

@@ -16,78 +16,80 @@
 
        .img_juegos1{
         grid-area: foto1;
+        border-radius: 20px;
         
     
     }
     
     .img_juegos2{
         grid-area: foto2;
+        border-radius: 20px;
     
     }
     
     .img_juegos3{
         grid-area: foto3;
+        border-radius: 20px;
     
     }
     
     .img_juegos4{
         grid-area: foto4;
+        border-radius: 20px;
     
     }
     
     .img_juegos5{
         grid-area: foto5;
+        border-radius: 20px;
+    
     
     }
     
     .img_juegos6{
         grid-area: foto6;
+        border-radius: 20px;
     
     }
     .img_juegos7{
         grid-area: foto7;
+        border-radius: 20px;
     
     }
     .img_juegos8{
         grid-area: foto8;
+        border-radius: 20px;
     
     }
     
     .img_juegos9{
         grid-area: foto9;
+        border-radius: 20px;
     
     }
     
     .img_juegos10{
         grid-area: foto10;
+        border-radius: 20px;
     
     }
     
     .img_juegos11{
         grid-area: foto11;
+        border-radius: 20px;
     
     }
     
     .img_juegos12{
         grid-area: foto12;
+        border-radius: 20px;
     
     }
     
 }
 
 .grilla_peliculas{
-    h1{
-        justify-content: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
-     }
-     p{
-         text-align: center;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         color: black;
-         justify-content: center;
-
-     }
+   
     display: flex;
     align-content: space-around;
     justify-content: center;
@@ -104,43 +106,54 @@
     .img_peli1{
     
         grid-area: foto1;
+        border-radius: 50px;
     }
     
     .img_peli2{
         grid-area: foto2;
+        border-radius: 50px;
     }
     
     .img_peli3{
         grid-area: foto3;
+        border-radius: 50px;
     }
     
     .img_peli4{
         grid-area: foto4;
+        border-radius: 50px;
     }
     
     .img_peli5{
         grid-area: foto5;
+        border-radius: 50px;
     }
     
     .img_peli6{
         grid-area: foto6;
+        border-radius: 50px;
     }
     
     .img_peli7{
         grid-area: foto7;
+        border-radius: 50px;
     }
     
     .img_peli8{
         grid-area: foto8;
+        border-radius: 50px;
     }
     
     .img_peli9{
         grid-area: foto9;
         object-fit: contain;
+        border-radius: 50px;
     }
 }
 
 .grilla_galeria{
+   
+
     display: flex;
     align-content: space-around;
     justify-content: center;
@@ -161,6 +174,7 @@
     .img_galeria1{
         grid-area: foto1;
         transition: all 2s;
+        border-radius: 30px;
     }
     
     .img_galeria1:hover{
@@ -170,6 +184,7 @@
     .img_galeria2{
         grid-area: foto2;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria2:hover{
         transform: scale(1.1 , 1.1);
@@ -178,6 +193,7 @@
     .img_galeria3{
         grid-area: foto3;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria3:hover{
         transform: scale(1.1 , 1.1);
@@ -187,6 +203,7 @@
     .img_galeria4{
         grid-area: foto4;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria4:hover{
         transform: rotate(45deg);
@@ -195,6 +212,7 @@
     .img_galeria5{
         grid-area: foto5;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria5:hover{
         transform: rotate(45deg);
@@ -204,6 +222,7 @@
     .img_galeria6{
         grid-area: foto6;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria6:hover{
         transform: rotate(45deg);
@@ -213,6 +232,7 @@
     .img_galeria7{
         grid-area: foto7;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria7:hover{
         transform: rotatey(140deg);
@@ -222,6 +242,7 @@
     .img_galeria8{
         grid-area: foto8;
         transition: all 2s;
+        border-radius: 30px;
     }
     .img_galeria8:hover{
         transform: rotatey(140deg);
@@ -230,6 +251,7 @@
     .img_galeria9{
         grid-area: foto9;
         transition: all 2s;
+        border-radius: 30px;
         
     }
     .img_galeria9:hover{
@@ -246,20 +268,20 @@
 
     .video_galeria1{
         grid-area: foto10;
+        border-radius: 30px;
     }
 
     .video_galeria2{
         grid-area: foto11;
+        border-radius: 30px;
     }
 
     .video_galeria3{
         grid-area: foto12;
+        border-radius: 30px;
     }
 
-    .video_galeria4{
-        grid-area: foto13;
-    }
-
+    
    
     
     
